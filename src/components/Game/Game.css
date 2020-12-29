@@ -1,0 +1,21 @@
+.game-window {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid black;
+  max-width: 400px;
+  height: 700px;
+  /* background-color: rgb(71, 170, 71); */
+  background-image: url("./../../icons/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.score{
+  margin-top: 10px;
+  position: relative;
+  font-size: 40px;
+
+  -webkit-text-stroke: 2px black;
+  color: white;
+}
